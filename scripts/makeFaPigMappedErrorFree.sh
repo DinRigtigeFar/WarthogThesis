@@ -1,0 +1,1 @@
+cat toBeFaed.txt | parallel -j 2 angsd -explode 1 -i /steveData/genis/pigs/map/bam/{}.bam -doFasta 2 -doCounts 1 -out {}.errorReady -minQ 35 -minMapQ 35 -remove_bads 1 -uniqueOnly 1 -only_proper_pairs 1 -rf /home/jfl323/pigs/cleanWarts/noSexChroms.rf -p 20 -setMinDepth 10

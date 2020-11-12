@@ -1,0 +1,1 @@
+angsd -GL 2 -out abbbababa1 -nThreads 40 -doAbbababa 1 -doCounts 1 -bam pigMap_39_plusOut.filelist -minMapQ 30 -minQ 20 -blockSize 5000000 -useLast 1 -rf /home/jfl323/pigs/subsampled_whole_genome/warthogGenomeSubsample_Nregions2000_sizePerRegion2e+05.region -remove_bads 1 -uniqueOnly 1 -only_proper_pairs 1 -minInd 18
